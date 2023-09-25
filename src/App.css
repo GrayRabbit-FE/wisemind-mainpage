@@ -1,38 +1,1284 @@
-.App {
-  text-align: center;
+.desktop-template {
+    background-color: #000000;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    transition: 0.5s;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.overlap>* {
+    transition: 0.5s;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.desktop-template .div {
+    background-color: #ffffff;
+    height: 5600px;
+    overflow: hidden;
+    position: relative;
+    width: 1440px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.desktop-template .overlap {
+    height: 4869px;
+    left: -256px;
+    position: absolute;
+    top: 801px;
+    width: 2003px;
 }
 
-.App-link {
-  color: #61dafb;
+.desktop-template .rectangle {
+    background-color: #b6b6b6;
+    height: 465px;
+    left: 230px;
+    position: absolute;
+    top: 4404px;
+    width: 1570px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.desktop-template .img {
+    height: 1510px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 2493px;
+    width: 2003px;
+}
+
+.desktop-template .rectangle-2 {
+    background-color: #111111;
+    border-radius: 0px 0px 60px 60px;
+    height: 900px;
+    left: 256px;
+    position: absolute;
+    top: 3703px;
+    width: 1440px;
+}
+
+.desktop-template .image {
+    height: 262px;
+    left: 1360px;
+    position: absolute;
+    top: 3755px;
+    width: 290px;
+}
+
+.desktop-template .image-2 {
+    height: 148px;
+    left: 1146px;
+    position: absolute;
+    top: 3755px;
+    width: 200px;
+}
+
+.desktop-template .image-3 {
+    height: 240px;
+    left: 863px;
+    position: absolute;
+    top: 3755px;
+    width: 269px;
+}
+
+.desktop-template .image-4 {
+    height: 177px;
+    left: 356px;
+    position: absolute;
+    top: 3755px;
+    width: 158px;
+}
+
+.desktop-template .image-5 {
+    height: 217px;
+    left: 700px;
+    object-fit: cover;
+    position: absolute;
+    top: 3755px;
+    width: 149px;
+}
+
+.desktop-template .image-6 {
+    height: 103px;
+    left: 526px;
+    object-fit: cover;
+    position: absolute;
+    top: 3755px;
+    width: 161px;
+}
+
+.desktop-template .rectangle-3 {
+    background-color: #d9d9d9;
+    border-radius: 24px;
+    height: 150px;
+    left: 1262px;
+    position: absolute;
+    top: 2597px;
+    transform: rotate(-15deg);
+    width: 153px;
+}
+
+.desktop-template .rectangle-4 {
+    background-color: #d9d9d9;
+    border-radius: 24px;
+    height: 150px;
+    left: 1433px;
+    position: absolute;
+    top: 2551px;
+    transform: rotate(-15deg);
+    width: 153px;
+}
+
+.desktop-template .rectangle-5 {
+    background-color: #010707;
+    height: 2803px;
+    left: 256px;
+    position: absolute;
+    top: 0;
+    width: 1440px;
+}
+
+.desktop-template .rectangle-6 {
+    background: linear-gradient(180deg, rgb(21, 24, 29) 0%, rgba(21, 24, 29, 0) 100%);
+    border-radius: 24px;
+    box-shadow: 0px 35px 80px #15181d59;
+    height: 2312px;
+    left: 515px;
+    position: absolute;
+    top: 189px;
+    width: 922px;
+}
+
+.desktop-template .rectangle-7 {
+    background: linear-gradient(180deg, rgb(0, 122, 255) 0%, rgba(0, 122, 255, 0.14) 100%);
+    border-radius: 24px 0px 0px 24px;
+    height: 560px;
+    left: 515px;
+    position: absolute;
+    top: 189px;
+    width: 513px;
+}
+
+.desktop-template .rectangle-8 {
+    background: linear-gradient(180deg, rgb(162.56, 162.56, 162.56) 0%, rgba(158.31, 158.31, 158.31, 0) 100%);
+    border-radius: 0px 24px 24px 0px;
+    height: 560px;
+    left: 1101px;
+    position: absolute;
+    top: 773px;
+    width: 336px;
+}
+
+.desktop-template .rectangle-9 {
+    background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgba(87.45, 75.04, 137.06, 0) 100%);
+    border-radius: 24px;
+    height: 561px;
+    left: 808px;
+    position: absolute;
+    top: 1943px;
+    width: 629px;
+}
+
+.desktop-template .rectangle-10 {
+    background: linear-gradient(180deg, rgb(0, 61, 146) 0%, rgba(10.26, 66.3, 105.19, 0) 100%);
+    border-radius: 24px;
+    height: 560px;
+    left: 515px;
+    position: absolute;
+    top: 1357px;
+    width: 922px;
+}
+
+.desktop-template .AI {
+    color: #ffffff;
+    font-family: "Noto Sans SC-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 1231px;
+    letter-spacing: 0;
+    line-height: 24px;
+    position: absolute;
+    text-align: right;
+    top: 2305px;
+    width: 166px;
+}
+
+.desktop-template .text-wrapper {
+    color: #ffffff;
+    font-family: "Noto Sans SC-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 539px;
+    letter-spacing: 0;
+    line-height: 24px;
+    position: absolute;
+    top: 1599px;
+    width: 252px;
+}
+
+.desktop-template .one-click-dressing {
+    color: #b6ffff1c;
+    font-family: "Alibaba PuHuiTi 2.0-115Black", Helvetica;
+    font-size: 99px;
+    font-weight: 900;
+    left: 674px;
+    letter-spacing: 0;
+    line-height: 107.5px;
+    position: absolute;
+    text-align: right;
+    top: 174px;
+    width: 366px;
+}
+
+.desktop-template .one-click {
+    color: #e4fa022e;
+    font-family: "Alibaba PuHuiTi 2.0-115Black", Helvetica;
+    font-size: 99px;
+    font-weight: 900;
+    left: 1072px;
+    letter-spacing: 0;
+    line-height: 107.5px;
+    position: absolute;
+    top: 772px;
+    width: 366px;
+}
+
+.desktop-template .generate-quickly {
+    color: #d6d6d621;
+    font-family: "Alibaba PuHuiTi 2.0-115Black", Helvetica;
+    font-size: 99px;
+    font-weight: 900;
+    left: 491px;
+    letter-spacing: 0;
+    line-height: 107.5px;
+    position: absolute;
+    text-align: right;
+    top: 1353px;
+    width: 366px;
+}
+
+.desktop-template .generate-quickly-2 {
+    color: #d6d6d647;
+    font-family: "Alibaba PuHuiTi 2.0-115Black", Helvetica;
+    font-size: 99px;
+    font-weight: 900;
+    left: 1035px;
+    letter-spacing: 0;
+    line-height: 107.5px;
+    position: absolute;
+    top: 1943px;
+    width: 366px;
+}
+
+.desktop-template .text-wrapper-2 {
+    color: #ffffff;
+    font-family: "Alibaba PuHuiTi 2.0-115Black", Helvetica;
+    font-size: 44.8px;
+    font-weight: 900;
+    left: 1130px;
+    letter-spacing: 0;
+    line-height: 56px;
+    position: absolute;
+    text-align: right;
+    top: 2128px;
+}
+
+.desktop-template .text-wrapper-3 {
+    color: #ffffff;
+    font-family: "Alibaba PuHuiTi 2.0-115Black", Helvetica;
+    font-size: 44.8px;
+    font-weight: 900;
+    left: 539px;
+    letter-spacing: 0;
+    line-height: 52.3px;
+    position: absolute;
+    top: 1463px;
+}
+
+.desktop-template .text-wrapper-4 {
+    color: #ffffff;
+    font-family: "Alibaba PuHuiTi 2.0-115Black", Helvetica;
+    font-size: 44.8px;
+    font-weight: 900;
+    left: 539px;
+    letter-spacing: 0;
+    line-height: 52.3px;
+    position: absolute;
+    top: 337px;
+}
+
+.desktop-template .text-wrapper-5 {
+    color: #ffffff;
+    font-family: "Alibaba PuHuiTi 2.0-115Black", Helvetica;
+    font-size: 71.9px;
+    font-weight: 900;
+    left: 716px;
+    letter-spacing: 0;
+    line-height: 83.8px;
+    position: absolute;
+    top: 311px;
+    white-space: nowrap;
+}
+
+.desktop-template .text-wrapper-6 {
+    color: #ffffff;
+    font-family: "Alibaba PuHuiTi 2.0-115Black", Helvetica;
+    font-size: 71.9px;
+    font-weight: 900;
+    left: 1187px;
+    letter-spacing: 0;
+    line-height: 83.8px;
+    position: absolute;
+    top: 936px;
+    white-space: nowrap;
+}
+
+.desktop-template .text-wrapper-7 {
+    color: #ffffff;
+    font-family: "Alibaba PuHuiTi 2.0-115Black", Helvetica;
+    font-size: 71.9px;
+    font-weight: 900;
+    left: 708px;
+    letter-spacing: 0;
+    line-height: 83.8px;
+    position: absolute;
+    top: 1423px;
+    white-space: nowrap;
+}
+
+.desktop-template .text-wrapper-8 {
+    color: #ffffff;
+    font-family: "Alibaba PuHuiTi 2.0-115Black", Helvetica;
+    font-size: 71.9px;
+    font-weight: 900;
+    left: 1267px;
+    letter-spacing: 0;
+    line-height: 83.8px;
+    position: absolute;
+    top: 2100px;
+    white-space: nowrap;
+}
+
+.desktop-template .rectangle-11 {
+    height: 560px;
+    left: 515px;
+    position: absolute;
+    top: 773px;
+    width: 586px;
+}
+
+.desktop-template .image-7 {
+    height: 560px;
+    left: 843px;
+    position: absolute;
+    top: 1357px;
+    width: 594px;
+}
+
+.desktop-template .image-8 {
+    background-color: #0000003d;
+    border-radius: 0px 25px 25px 0px;
+    height: 560px;
+    left: 843px;
+    position: absolute;
+    top: 1357px;
+    width: 594px;
+}
+
+.desktop-template .rectangle-12 {
+    height: 561px;
+    left: 515px;
+    object-fit: cover;
+    position: absolute;
+    top: 1943px;
+    width: 545px;
+}
+
+.desktop-template .rectangle-13 {
+    background-color: #00000033;
+    border-radius: 24px 0px 0px 24px;
+    height: 561px;
+    left: 515px;
+    position: absolute;
+    top: 1943px;
+    width: 545px;
+}
+
+.desktop-template .element {
+    height: 560px;
+    left: 1028px;
+    position: absolute;
+    top: 189px;
+    width: 409px;
+}
+
+.desktop-template .group {
+    background-color: #111111;
+    border-radius: 24px;
+    box-shadow: inset 5px 5px 5px #00000040;
+    height: 48px;
+    left: 539px;
+    position: absolute;
+    top: 594px;
+    width: 110px;
+}
+
+.desktop-template .arrow {
+    height: 1px;
+    left: 21px;
+    position: absolute;
+    top: 24px;
+    width: 69px;
+}
+
+.desktop-template .arrow-wrapper {
+    background-color: #111111;
+    border-radius: 24px;
+    height: 48px;
+    left: 1287px;
+    position: absolute;
+    top: 1219px;
+    width: 110px;
+}
+
+.desktop-template .img-wrapper {
+    background-color: #efefef;
+    border-radius: 24px;
+    height: 48px;
+    left: 698px;
+    position: absolute;
+    top: 1835px;
+    width: 110px;
+}
+
+.desktop-template .group-2 {
+    background-color: #111111;
+    border-radius: 24px;
+    height: 48px;
+    left: 1287px;
+    position: absolute;
+    top: 2402px;
+    width: 110px;
+}
+
+.desktop-template .text-wrapper-9 {
+    color: #dedede;
+    font-family: "Noto Sans SC-Thin", Helvetica;
+    font-size: 16px;
+    font-weight: 100;
+    left: 539px;
+    letter-spacing: 0;
+    line-height: 24px;
+    position: absolute;
+    top: 504px;
+    width: 270px;
+}
+
+.desktop-template .text-wrapper-10 {
+    color: #ffffff;
+    font-family: "Alibaba PuHuiTi 2.0-115Black", Helvetica;
+    font-size: 44.8px;
+    font-weight: 900;
+    left: 1219px;
+    letter-spacing: 0;
+    line-height: 52.3px;
+    position: absolute;
+    text-align: right;
+    top: 962px;
+}
+
+.desktop-template .AI-2 {
+    color: #ffffff;
+    font-family: "Noto Sans SC-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 1145px;
+    letter-spacing: 0;
+    line-height: 24px;
+    position: absolute;
+    text-align: right;
+    top: 1128px;
+    width: 252px;
+}
+
+.desktop-template .text-wrapper-11 {
+    color: #ffffff;
+    font-family: "Noto Sans SC-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 539px;
+    letter-spacing: 0;
+    line-height: 24px;
+    position: absolute;
+    top: 1703px;
+    width: 252px;
+}
+
+.desktop-template .rectangle-14 {
+    background: linear-gradient(180deg, rgb(0, 1.29, 36.12) 0%, rgba(0, 0, 0, 0) 100%);
+    height: 900px;
+    left: 185px;
+    position: absolute;
+    top: 2803px;
+    width: 1573px;
+}
+
+.desktop-template .p {
+    color: transparent;
+    font-family: "Noto Sans SC-Light", Helvetica;
+    font-size: 16px;
+    font-weight: 300;
+    left: 397px;
+    letter-spacing: 0;
+    line-height: 24px;
+    position: absolute;
+    top: 3453px;
+    width: 336px;
+}
+
+.desktop-template .span {
+    color: #f2f3ff;
+}
+
+.desktop-template .text-wrapper-12 {
+    color: #ffffff;
+}
+
+.desktop-template .overlap-wrapper {
+    height: 51px;
+    left: 397px;
+    position: absolute;
+    top: 3573px;
+    width: 171px;
+}
+
+.desktop-template .overlap-group {
+    background-color: #f3f2ee;
+    border: 5px solid;
+    border-color: #007aff;
+    border-radius: 25.5px;
+    height: 51px;
+    position: relative;
+    width: 169px;
+}
+
+.desktop-template .text-wrapper-13 {
+    color: #373737;
+    font-family: "Alibaba PuHuiTi 2.0-95ExtraBold", Helvetica;
+    font-size: 18px;
+    font-weight: 800;
+    left: 16px;
+    letter-spacing: 0;
+    line-height: 22px;
+    position: absolute;
+    top: 9px;
+    width: 88px;
+}
+
+.desktop-template .arrow-2 {
+    height: 16px;
+    left: 129px;
+    position: absolute;
+    top: 12px;
+    width: 16px;
+}
+
+.desktop-template .generate-quickly-3 {
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(180deg, rgba(0, 147, 249, 0.46) 0%, rgba(0, 25, 104, 0.7) 100%);
+    background-clip: text;
+    color: transparent;
+    font-family: "Alibaba PuHuiTi 2.0-115Black", Helvetica;
+    font-size: 218.7px;
+    font-weight: 900;
+    left: 905px;
+    letter-spacing: 0;
+    line-height: 200px;
+    position: absolute;
+    text-align: right;
+    text-fill-color: transparent;
+    top: 2889px;
+    width: 808px;
+}
+
+.desktop-template .to-making-progress {
+    color: transparent;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-size: 29.2px;
+    font-weight: 700;
+    left: 397px;
+    letter-spacing: 0;
+    line-height: 58.5px;
+    position: absolute;
+    top: 3394px;
+    white-space: nowrap;
+}
+
+.desktop-template .text-wrapper-14 {
+    color: #ffffff;
+    font-family: "Montserrat-BoldItalic", Helvetica;
+    font-style: italic;
+}
+
+.desktop-template .text-wrapper-15 {
+    color: #e4fa02;
+    font-family: "Montserrat-BoldItalic", Helvetica;
+    font-style: italic;
+}
+
+.desktop-template .image-9 {
+    height: 278px;
+    left: 335px;
+    position: absolute;
+    top: 4321px;
+    width: 290px;
+}
+
+.desktop-template .image-10 {
+    height: 157px;
+    left: 639px;
+    position: absolute;
+    top: 4442px;
+    width: 200px;
+}
+
+.desktop-template .image-11 {
+    height: 255px;
+    left: 853px;
+    position: absolute;
+    top: 4344px;
+    width: 269px;
+}
+
+.desktop-template .image-12 {
+    height: 188px;
+    left: 1471px;
+    position: absolute;
+    top: 4411px;
+    width: 158px;
+}
+
+.desktop-template .image-13 {
+    height: 203px;
+    left: 335px;
+    object-fit: cover;
+    position: absolute;
+    top: 4113px;
+    width: 290px;
+}
+
+.desktop-template .image-14 {
+    height: 139px;
+    left: 1299px;
+    object-fit: cover;
+    position: absolute;
+    top: 4344px;
+    width: 160px;
+}
+
+.desktop-template .image-15 {
+    height: 238px;
+    left: 1471px;
+    position: absolute;
+    top: 4166px;
+    width: 158px;
+}
+
+.desktop-template .image-16 {
+    height: 230px;
+    left: 1136px;
+    object-fit: cover;
+    position: absolute;
+    top: 4369px;
+    width: 149px;
+}
+
+.desktop-template .image-17 {
+    height: 267px;
+    left: 643px;
+    object-fit: cover;
+    position: absolute;
+    top: 4164px;
+    width: 191px;
+}
+
+.desktop-template .image-18 {
+    height: 109px;
+    left: 1298px;
+    object-fit: cover;
+    position: absolute;
+    top: 4490px;
+    width: 161px;
+}
+
+.desktop-template .rectangle-15 {
+    background-color: #000000;
+    height: 56px;
+    left: 256px;
+    position: absolute;
+    top: 3703px;
+    width: 1440px;
+}
+
+.desktop-template .rectangle-16 {
+    background: linear-gradient(180deg, rgba(0, 3.93, 39.31, 0.71) 0%, rgba(0, 11.69, 24.44, 0) 100%);
+    border-radius: 0px 0px 60px 60px;
+    height: 863px;
+    left: 256px;
+    position: absolute;
+    top: 3740px;
+    width: 1440px;
+}
+
+.desktop-template .group-3 {
+    height: 697px;
+    left: 711px;
+    position: absolute;
+    top: 4017px;
+    width: 591px;
+}
+
+.desktop-template .text-wrapper-16 {
+    color: #ffffff;
+    font-family: "Alibaba PuHuiTi 2.0-105Heavy", Helvetica;
+    font-size: 80.4px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 4.02px;
+    line-height: 91.3px;
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+}
+
+.desktop-template .join-us {
+    color: #007aff;
+    font-family: "Alibaba PuHuiTi 2.0-115Black", Helvetica;
+    font-size: 48px;
+    font-weight: 900;
+    left: 145px;
+    letter-spacing: 2.4px;
+    line-height: 91.3px;
+    position: absolute;
+    top: 605px;
+    white-space: nowrap;
+}
+
+.desktop-template .div-2 {
+    color: transparent;
+    font-family: "Noto Sans SC-Thin", Helvetica;
+    font-size: 20px;
+    font-weight: 100;
+    left: 44px;
+    letter-spacing: 0;
+    line-height: 30px;
+    position: absolute;
+    top: 130px;
+}
+
+.desktop-template .div-3 {
+    color: transparent;
+    font-family: "Noto Sans SC-Thin", Helvetica;
+    font-size: 16px;
+    font-weight: 100;
+    left: 141px;
+    letter-spacing: 0;
+    line-height: 24px;
+    position: absolute;
+    top: 332px;
+    white-space: nowrap;
+}
+
+.desktop-template .div-wrapper {
+    background-color: #007aff;
+    border-radius: 45px;
+    height: 72px;
+    left: 197px;
+    position: absolute;
+    top: 213px;
+    width: 173px;
+}
+
+.desktop-template .text-wrapper-17 {
+    color: #000000;
+    font-family: "Alibaba PuHuiTi 2.0-95ExtraBold", Helvetica;
+    font-size: 16px;
+    font-weight: 800;
+    left: 70px;
+    letter-spacing: 0;
+    line-height: 24px;
+    position: absolute;
+    top: 24px;
+    width: 41px;
+}
+
+.desktop-template .overlap-2 {
+    background-color: #d9d9d9;
+    border-radius: 45px;
+    height: 72px;
+    left: 302px;
+    position: absolute;
+    top: 213px;
+    width: 173px;
+}
+
+.desktop-template .text-wrapper-18 {
+    color: #000000;
+    font-family: "Alibaba PuHuiTi 2.0-95ExtraBold", Helvetica;
+    font-size: 16px;
+    font-weight: 800;
+    left: 71px;
+    letter-spacing: 0;
+    line-height: 24px;
+    position: absolute;
+    top: 24px;
+    width: 41px;
+}
+
+.desktop-template .rectangle-17 {
+    background-color: #111111;
+    height: 85px;
+    left: 221px;
+    position: absolute;
+    top: 4714px;
+    width: 1516px;
+}
+
+.desktop-template .text-wrapper-19 {
+    color: #ffffff;
+    font-family: "Noto Sans SC-Thin", Helvetica;
+    font-size: 16px;
+    font-weight: 100;
+    height: 27px;
+    left: 779px;
+    letter-spacing: 0;
+    line-height: 26.8px;
+    position: absolute;
+    text-align: center;
+    top: 4739px;
+    white-space: nowrap;
+}
+
+.desktop-template .text-wrapper-20 {
+    color: #ffffff;
+    font-family: "Noto Sans SC-Thin", Helvetica;
+    font-size: 16px;
+    font-weight: 100;
+    height: 27px;
+    left: 334px;
+    letter-spacing: 0;
+    line-height: 26.8px;
+    position: absolute;
+    text-align: center;
+    top: 4739px;
+    white-space: nowrap;
+}
+
+.desktop-template .text-wrapper-21 {
+    color: #ffffff;
+    font-family: "Noto Sans SC-Thin", Helvetica;
+    font-size: 16px;
+    font-weight: 100;
+    height: 27px;
+    left: 1551px;
+    letter-spacing: 0;
+    line-height: 26.8px;
+    position: absolute;
+    text-align: center;
+    top: 4739px;
+    white-space: nowrap;
+}
+
+.desktop-template .rectangle-18 {
+    background: linear-gradient(180deg, rgb(0, 122, 255) 0%, rgba(0, 122, 255, 0) 100%);
+    border-radius: 93.9px;
+    height: 43px;
+    left: 727px;
+    position: absolute;
+    top: 3109px;
+    width: 264px;
+}
+
+.desktop-template .text-wrapper-22 {
+    color: #ffffff;
+    font-family: "Alibaba PuHuiTi 2.0-115Black", Helvetica;
+    font-size: 74.7px;
+    font-weight: 900;
+    left: 397px;
+    letter-spacing: 0;
+    line-height: 84.8px;
+    position: absolute;
+    top: 3081px;
+    white-space: nowrap;
+}
+
+.desktop-template .to-making-progress-2 {
+    color: transparent;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-size: 39.2px;
+    font-weight: 700;
+    left: 397px;
+    letter-spacing: 0;
+    line-height: 78.5px;
+    position: absolute;
+    top: 3167px;
+    white-space: nowrap;
+}
+
+.desktop-template .text-wrapper-23 {
+    color: #00ffff;
+    font-family: "Montserrat-BoldItalic", Helvetica;
+    font-style: italic;
+}
+
+.desktop-template .overlap-3 {
+    height: 815px;
+    left: -25px;
+    position: absolute;
+    top: -14px;
+    width: 2472px;
+}
+
+.desktop-template .image-19 {
+    height: 421px;
+    left: 377px;
+    object-fit: cover;
+    position: absolute;
+    top: 394px;
+    width: 279px;
+}
+
+.desktop-template .image-20 {
+    height: 380px;
+    left: 377px;
+    object-fit: cover;
+    position: absolute;
+    top: 14px;
+    width: 256px;
+}
+
+.desktop-template .image-21 {
+    height: 421px;
+    left: 1007px;
+    position: absolute;
+    top: 394px;
+    width: 556px;
+}
+
+.desktop-template .image-22 {
+    height: 182px;
+    left: 656px;
+    position: absolute;
+    top: 390px;
+    width: 122px;
+}
+
+.desktop-template .image-23 {
+    height: 380px;
+    left: 633px;
+    object-fit: cover;
+    position: absolute;
+    top: 14px;
+    width: 562px;
+}
+
+.desktop-template .image-24 {
+    height: 249px;
+    left: 656px;
+    position: absolute;
+    top: 566px;
+    width: 208px;
+}
+
+.desktop-template .image-25 {
+    height: 801px;
+    left: 18px;
+    position: absolute;
+    top: 14px;
+    width: 359px;
+}
+
+.desktop-template .image-26 {
+    height: 380px;
+    left: 1195px;
+    position: absolute;
+    top: 14px;
+    width: 270px;
+}
+
+.desktop-template .image-27 {
+    height: 172px;
+    left: 778px;
+    object-fit: cover;
+    position: absolute;
+    top: 394px;
+    width: 259px;
+}
+
+.desktop-template .image-28 {
+    height: 249px;
+    left: 864px;
+    position: absolute;
+    top: 566px;
+    width: 173px;
+}
+
+.desktop-template .rectangle-19 {
+    background: linear-gradient(180deg, rgb(0, 1, 36) 0%, rgba(0, 0, 0, 0) 100%);
+    height: 815px;
+    left: 16px;
+    position: absolute;
+    top: 0;
+    width: 1451px;
+}
+
+.desktop-template .text-wrapper-24 {
+    color: #ffffff;
+    font-family: "Noto Sans SC-Bold", Helvetica;
+    font-size: 35.7px;
+    font-weight: 700;
+    left: 166px;
+    letter-spacing: 3.57px;
+    line-height: 40.5px;
+    position: absolute;
+    top: 399px;
+}
+
+.desktop-template .text-wrapper-25 {
+    color: #ffffff;
+    font-family: "Montserrat-BoldItalic", Helvetica;
+    font-size: 29.2px;
+    font-style: italic;
+    font-weight: 700;
+    left: 166px;
+    letter-spacing: 0;
+    line-height: 58.5px;
+    position: absolute;
+    top: 479px;
+    white-space: nowrap;
+}
+
+.desktop-template .overlap-group-wrapper {
+    height: 51px;
+    left: 166px;
+    position: absolute;
+    top: 687px;
+    width: 171px;
+}
+
+.overlap-group-wrapper:hover,
+.group:hover,
+.arrow-wrapper:hover,
+.img-wrapper:hover,
+.group-2:hover,
+.overlap-wrapper:hover {
+    transition: 0.5s;
+    transform: translateX(15px);
+    cursor: pointer;
+}
+
+.div-wrapper:hover {
+    transition: 0.5s;
+    transform: translateY(15px);
+    cursor: pointer;
+}
+
+.group,
+.arrow-wrapper,
+.img-wrapper,
+.group-2 {
+    display: none;
+}
+
+.group:hover,
+.arrow-wrapper:hover,
+.img-wrapper:hover,
+.group-2:hover {
+    border: 3px solid rgb(0, 122, 255);
+    box-sizing: border-box;
+}
+
+.desktop-template .overlap-group-2 {
+    background: radial-gradient(50% 50% at 50% 50%, rgb(0, 147, 249) 0%, rgb(0, 127.96, 216.75) 100%);
+    border: 1px solid;
+    border-color: #0b3b7a;
+    border-radius: 25.5px;
+    height: 51px;
+    position: relative;
+    width: 169px;
+}
+
+.desktop-template .text-wrapper-26 {
+    color: #ffffff;
+    font-family: "Alibaba PuHuiTi 2.0-85Bold", Helvetica;
+    font-size: 18px;
+    font-weight: 700;
+    left: 19px;
+    letter-spacing: 0;
+    line-height: 22px;
+    position: absolute;
+    top: 13px;
+    width: 88px;
+}
+
+.desktop-template .arrow-3 {
+    height: 16px;
+    left: 133px;
+    position: absolute;
+    top: 16px;
+    width: 16px;
+}
+
+.desktop-template .text-wrapper-27 {
+    color: #f2f3ff;
+    font-family: "Noto Sans SC-Thin", Helvetica;
+    font-size: 16px;
+    font-weight: 100;
+    left: 166px;
+    letter-spacing: 0;
+    line-height: 24px;
+    position: absolute;
+    top: 569px;
+    width: 336px;
+}
+
+.desktop-template .rectangle-20 {
+    background-color: #0093f9;
+    border-radius: 46px;
+    height: 22px;
+    left: 144px;
+    position: absolute;
+    top: 265px;
+    width: 1396px;
+}
+
+.desktop-template .rectangle-21 {
+    background-color: #0093f9;
+    border-radius: 56px;
+    height: 29px;
+    left: 1115px;
+    position: absolute;
+    top: 693px;
+    width: 437px;
+}
+
+.desktop-template .rectangle-22 {
+    background-color: #b8b8b8;
+    height: 55px;
+    left: 25px;
+    position: absolute;
+    top: 11px;
+    width: 1440px;
+}
+
+.desktop-template .text-wrapper-28 {
+    color: #121212;
+    font-family: "Noto Sans SC-Medium", Helvetica;
+    font-size: 14px;
+    font-weight: 500;
+    left: 348px;
+    letter-spacing: 0;
+    line-height: 22px;
+    position: absolute;
+    text-align: center;
+    top: 28px;
+    width: 65px;
+}
+
+.desktop-template .text-wrapper-29 {
+    color: #121212;
+    font-family: "Noto Sans SC-Medium", Helvetica;
+    font-size: 14px;
+    font-weight: 500;
+    left: 249px;
+    letter-spacing: 0;
+    line-height: 22px;
+    position: absolute;
+    text-align: center;
+    top: 28px;
+    width: 65px;
+}
+
+.desktop-template .text-wrapper-30 {
+    color: #121212;
+    font-family: "Noto Sans SC-Medium", Helvetica;
+    font-size: 14px;
+    font-weight: 500;
+    left: 144px;
+    letter-spacing: 0;
+    line-height: 22px;
+    position: absolute;
+    text-align: center;
+    top: 28px;
+    width: 71px;
+}
+
+.desktop-template .text-wrapper-31 {
+    color: #121212;
+    font-family: "Noto Sans SC-Medium", Helvetica;
+    font-size: 14px;
+    font-weight: 500;
+    left: 1186px;
+    letter-spacing: 0;
+    line-height: 22px;
+    position: absolute;
+    text-align: center;
+    top: 28px;
+    width: 65px;
+}
+
+.desktop-template .rectangle-23 {
+    border: 1px solid;
+    border-color: #007aff;
+    border-radius: 16.5px;
+    height: 33px;
+    left: 1144px;
+    position: absolute;
+    top: 24px;
+    width: 125px;
+}
+
+.desktop-template .ellipse {
+    background-color: #007aff;
+    border-radius: 11.5px;
+    height: 23px;
+    left: 1150px;
+    position: absolute;
+    top: 29px;
+    width: 23px;
+}
+
+.desktop-template .polygon {
+    height: 4px;
+    left: 1254px;
+    position: absolute;
+    top: 39px;
+    width: 6px;
+}
+
+.desktop-template .text-wrapper-32 {
+    -webkit-text-stroke: 1.01px #ffffff;
+    color: #ffffff;
+    font-family: "Alibaba PuHuiTi 2.0-105Heavy", Helvetica;
+    font-size: 143.6px;
+    font-weight: 400;
+    left: 200px;
+    letter-spacing: 0;
+    line-height: 163.1px;
+    position: absolute;
+    top: 99px;
+    width: 1222px;
+}
+
+.desktop-template .text-wrapper-33 {
+    -webkit-text-stroke: 1.01px #ffffff;
+    color: #ffffff;
+    font-family: "Alibaba PuHuiTi 2.0-105Heavy", Helvetica;
+    font-size: 143.6px;
+    font-weight: 400;
+    left: 1250px;
+    letter-spacing: 0;
+    line-height: 163.1px;
+    position: absolute;
+    top: 99px;
+    width: 1222px;
 }
