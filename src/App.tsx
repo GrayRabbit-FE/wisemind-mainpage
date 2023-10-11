@@ -24,19 +24,17 @@ export  default function App () {
         <div className="rectangle-9" />
         <div className="rectangle-10" />
         <div className="AI">
-          AI影棚推出灵感功能
+          图片云端存储
           <br />
-          仅需3步
-          <br />
-          让创作不再迷茫
+          不再担心本地丢失
         </div>
         <div className="text-wrapper">
-          /////////
+          一键适配
           <br />
-          ///
+          各大平台
           <br />
-          ///
-          <br />/
+          更好表述您的产品
+          <br />
         </div>
         <div className="one-click-dressing">
           One-click
@@ -47,19 +45,19 @@ export  default function App () {
         <div className="generate-quickly">Generate Quickly</div>
         <div className="generate-quickly-2">Generate Quickly</div>
         <div className="text-wrapper-2">
-          收藏
+          收藏您的最爱
           <br />
-          想不出来文案
+          不怕灵感丢失
         </div>
         <div className="text-wrapper-3">
-          海量图片
+          平台文案
           <br />
-          快速生成
+          一键生成
         </div>
         <div className="text-wrapper-4">
           一键穿衣
           <br />
-          从此告别服装模特
+          从此告别传统模特
         </div>
         <div className="text-wrapper-5">*</div>
         <div className="text-wrapper-6">*</div>
@@ -91,21 +89,16 @@ export  default function App () {
           适应任何真实模特图像。
         </div>
         <div className="text-wrapper-10">
-          大牌风格
+          你的艺术
           <br />
-          一键获取
+          一键设计
         </div>
         <div className="AI-2">
-          AI影棚推出灵感功能
+          从灵感到成品
           <br />
           仅需3步
           <br />
-          让创作不再迷茫
-        </div>
-        <div className="text-wrapper-11">
-          /////////
-          <br />
-          /////////////////////
+          让设计没有门槛
         </div>
         <div className="rectangle-14" />
         <p className="p">
@@ -119,7 +112,7 @@ export  default function App () {
         <div className="overlap-wrapper">
           <div className="overlap-group">
             <div className="text-wrapper-13" onClick={()=>{
-              window.location.replace('https://eejsj8fzkug.larksuite.com/share/base/form/shruskc70ahcEgwIcLpOow0FJah')
+              window.location.replace('https://kaozr59ke4i.feishu.cn/share/base/form/shrcn8lBYjw4RpFVTth7CTOacZd?ccm_open_type=form_v1_link_share')
             }}>预约使用</div>
             <img className="arrow-2" alt="Arrow" src="https://c.animaapp.com/H8eCsQjb/img/arrow-2.svg" />
           </div>
@@ -145,29 +138,20 @@ export  default function App () {
           <div className="text-wrapper-16">赶快加入我们吧</div>
           <div className="join-us">JOIN US！</div>
           <p className="div-2">
-            <span className="span">随便写点这个</span>
-            <span className="text-wrapper-12">颜色就只</span>
-            <span className="span">
-              是给参考而已最后参考而已最后
-              <br />
-              参考而已最后参考而已最后参考而已最后参考而已最后
-            </span>
           </p>
           <p className="div-3">
-            <span className="span">随便写点这个</span>
-            <span className="text-wrapper-12">颜色就只？</span>
-            <span className="span">是给参考而已最后</span>
           </p>
           <div className="div-wrapper">
             <div className="text-wrapper-17" onClick={()=>{
-              window.location.replace('https://eejsj8fzkug.larksuite.com/share/base/form/shruskc70ahcEgwIcLpOow0FJah')
+              window.location.replace('https://kaozr59ke4i.feishu.cn/share/base/form/shrcn8lBYjw4RpFVTth7CTOacZd?ccm_open_type=form_v1_link_share')
             }}>
               预约
             </div>
           </div>
         </div>
         <div className="rectangle-17" />
-        <div className="text-wrapper-19">@版权信息：2023 深圳市万梦智能科技有限公司</div>
+        <div className="text-wrapper-19">copyright 2023 深圳市万梦智能科技有限公司 <a href="https://beian.miit.gov.cn">粤ICP备2023112289号
+</a></div>
         <div className="rectangle-18" />
         <div className="text-wrapper-22">AI摄影棚</div>
         <p className="to-making-progress-2">
@@ -196,7 +180,7 @@ export  default function App () {
         <div className="overlap-group-wrapper">
           <div className="overlap-group-2">
             <div className="text-wrapper-26" onClick={()=>{
-              window.location.replace('https://eejsj8fzkug.larksuite.com/share/base/form/shruskc70ahcEgwIcLpOow0FJah')
+              window.location.replace('https://kaozr59ke4i.feishu.cn/share/base/form/shrcn8lBYjw4RpFVTth7CTOacZd?ccm_open_type=form_v1_link_share')
             }}>预约使用</div>
             <img className="arrow-3" alt="Arrow" src="https://c.animaapp.com/H8eCsQjb/img/arrow-2-1.svg" />
           </div>
