@@ -102,12 +102,6 @@ export  default function App () {
         </div>
         <div className="rectangle-14" />
         <p className="p">
-          <span className="span">随便写点，这个</span>
-          <span className="text-wrapper-12">颜色就只</span>
-          <span className="span">
-            是给参考而已，最后看我们怎么设计。随便写点，这个颜色就只是给参考而已，最后看我们怎么设计。
-          </span>
-          <span className="text-wrapper-12">随便写点</span>
         </p>
         <div className="overlap-wrapper">
           <div className="overlap-group">
